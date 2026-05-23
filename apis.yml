@@ -1,0 +1,108 @@
+aid: mr-cooper-group
+url: https://raw.githubusercontent.com/api-evangelist/mr-cooper-group/refs/heads/main/apis.yml
+name: Mr. Cooper Group
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Mortgage
+  - Mortgage Servicing
+  - Financial Services
+  - Real Estate
+  - Consumer Finance
+  - Acquired
+  - Rocket Companies
+description: 'Mr. Cooper Group (formerly Nationstar Mortgage, NASDAQ: COOP) was a Coppell, Texas-based mortgage servicer with roughly $1.5T in unpaid principal balance under servicing and more than 4 million customers. It was acquired by Rocket Companies (NYSE: RKT) in an all-stock transaction announced March 31, 2025 (initial value $9.4B) and closed October 1, 2025 (final value approximately $14.2B). Mr. Cooper now operates as a Rocket Companies subsidiary; the corporate site mrcoopergroup.com redirects to rocketcompanies.com and the COOP ticker has been delisted. The consumer brand Mr. Cooper continues at mrcooper.com as one of seven Rocket Companies operating businesses (Rocket Mortgage, Redfin, Mr. Cooper, Rocket Homes, Rocket Close, Rocket Money, Rocket Loans). Mr. Cooper does not publish a public developer API or developer portal.'
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.mrcooper.com/
+  - type: ParentCompanyWebsite
+    url: https://www.rocketcompanies.com/
+  - type: InvestorRelations
+    url: https://ir.rocketcompanies.com/home/default.aspx
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/mrcooper/
+  - type: Login
+    url: https://www.mrcooper.com/login
+  - type: Features
+    data:
+      - name: Mortgage Servicing
+        description: Servicing of residential mortgage loans for approximately 4.3 million customers across the United States, covering payment processing, escrow, customer service, and loss mitigation.
+      - name: Mortgage Origination
+        description: Origination of home purchase, refinance, cash-out refinance, and home equity loans, now powered by Rocket Mortgage following the acquisition.
+      - name: Home Equity Loans
+        description: Second-lien home equity products allowing customers to access equity 'without losing the rate on your first mortgage'.
+      - name: Online Self-Service
+        description: Mr. Cooper consumer portal at mrcooper.com providing account access, payment, statements, escrow management, and loan lookup.
+      - name: Mobile App
+        description: Mr. Cooper mobile app for iOS and Android offering account management, payments, and document access.
+  - type: UseCases
+    data:
+      - name: Residential Mortgage Servicing
+        description: Servicing third-party-originated and GSE-owned residential mortgages at scale, including conforming, FHA, VA, and USDA loans.
+      - name: Mortgage Subservicing
+        description: Subservicing arrangements for banks, credit unions, and mortgage investors that own loans but outsource servicing operations.
+      - name: Specialty Servicing
+        description: Servicing of delinquent, non-performing, and re-performing loans through the Rushmore Servicing subsidiary.
+      - name: Real Estate Services
+        description: REO management, valuation, title, and field services historically delivered through the Xome subsidiary.
+  - type: Authentication
+    data:
+      - name: No Public API
+        description: Mr. Cooper does not publish a public developer API, developer portal, OpenAPI specification, or SDK. Consumer-facing mobile and web experiences are powered by private internal APIs not exposed to third parties.
+  - type: Compliance
+    data:
+      - name: CFPB Regulation
+        description: Subject to U.S. Consumer Financial Protection Bureau supervision and enforcement as a large mortgage servicer.
+      - name: RESPA
+        description: Real Estate Settlement Procedures Act compliance governing mortgage servicing disclosures, escrow accounts, and loss mitigation.
+      - name: TILA
+        description: Truth in Lending Act compliance for periodic statements, ARM disclosures, and payoff statements.
+      - name: GLBA
+        description: Gramm-Leach-Bliley Act compliance for safeguarding customer financial information.
+      - name: State Servicing Licenses
+        description: Licensed mortgage servicer across U.S. states with applicable state regulatory oversight.
+  - type: Acquisition
+    data:
+      - name: Acquired By Rocket Companies
+        description: Acquisition by Rocket Companies (NYSE: RKT) announced March 31, 2025 in an all-stock transaction initially valued at $9.4 billion, with a fixed exchange ratio of 11.0 Rocket Class A shares per Mr. Cooper share.
+      - name: Deal Closing
+        description: Transaction closed October 1, 2025 at a final value of approximately $14.2 billion driven by RKT share-price appreciation between announcement and close. Mr. Cooper became a wholly-owned Rocket Companies subsidiary on the closing date.
+      - name: NASDAQ Delisting
+        description: COOP common stock ceased trading on Nasdaq on closing. The mrcoopergroup.com corporate domain now redirects to rocketcompanies.com and Mr. Cooper investor relations consolidated under ir.rocketcompanies.com.
+      - name: Combined Servicing Scale
+        description: The combined Rocket Companies + Mr. Cooper platform is the largest U.S. mortgage servicer, with the Rocket investor narrative referencing approximately $2.1T in combined servicing UPB across more than 10 million clients post-close.
+  - type: Subsidiaries
+    data:
+      - name: Nationstar Mortgage LLC
+        description: Operating mortgage servicing and origination subsidiary doing business as Mr. Cooper. The legal entity name predates the 2017 consumer rebrand to Mr. Cooper.
+      - name: Xome
+        description: Real estate technology subsidiary providing REO disposition, valuations, title, and field services. Mr. Cooper announced sale of the Xome auction business to Voxtur in 2024.
+      - name: Rushmore Servicing
+        description: Specialty servicing subsidiary focused on non-performing and re-performing residential mortgages.
+  - type: Integrations
+    data:
+      - name: Rocket Mortgage
+        description: Mr. Cooper consumer mortgage originations are now branded 'Homeownership Powered by Rocket Mortgage' following the acquisition; mrcooper.com explicitly notes the two are 'separate companies uniting under the same parent organization'.
+      - name: Fannie Mae
+        description: GSE counterparty for conforming loan servicing, securitization, and subservicing.
+      - name: Freddie Mac
+        description: GSE counterparty for conforming loan servicing and subservicing.
+      - name: Ginnie Mae
+        description: Issuer relationship for FHA, VA, and USDA-backed mortgage-backed securities.
+  - type: History
+    data:
+      - name: Founding
+        description: Traces origins to 1997 with the founding of Nationstar Mortgage; corporate predecessor entities trace to WMI Holdings (the post-bankruptcy successor to Washington Mutual). Current Mr. Cooper Group corporate structure formed in 2018.
+      - name: Brand Change
+        description: Rebranded consumer-facing operations from Nationstar Mortgage to Mr. Cooper in August 2017; the parent renamed from Nationstar Mortgage Holdings to Mr. Cooper Group Inc. in 2018.
+      - name: 2023 Cyberattack
+        description: Suffered a cyberattack on October 31, 2023 that compromised personal information of millions of current and former customers and temporarily took servicing systems offline.
+      - name: Headquarters
+        description: Coppell, Texas (Dallas-Fort Worth area).
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
