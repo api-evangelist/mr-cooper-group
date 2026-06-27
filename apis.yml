@@ -68,7 +68,7 @@ common:
   - type: Acquisition
     data:
       - name: Acquired By Rocket Companies
-        description: Acquisition by Rocket Companies (NYSE: RKT) announced March 31, 2025 in an all-stock transaction initially valued at $9.4 billion, with a fixed exchange ratio of 11.0 Rocket Class A shares per Mr. Cooper share.
+        description: "Acquisition by Rocket Companies (NYSE: RKT) announced March 31, 2025 in an all-stock transaction initially valued at $9.4 billion, with a fixed exchange ratio of 11.0 Rocket Class A shares per Mr. Cooper share."
       - name: Deal Closing
         description: Transaction closed October 1, 2025 at a final value of approximately $14.2 billion driven by RKT share-price appreciation between announcement and close. Mr. Cooper became a wholly-owned Rocket Companies subsidiary on the closing date.
       - name: NASDAQ Delisting
