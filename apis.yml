@@ -25,7 +25,7 @@ tags:
 description: 'Mr. Cooper Group (formerly Nationstar Mortgage, NASDAQ: COOP) was a Coppell, Texas-based mortgage servicer with roughly $1.5T in unpaid principal balance under servicing and more than 4 million customers. It was acquired by Rocket Companies (NYSE: RKT) in an all-stock transaction announced March 31, 2025 (initial value $9.4B) and closed October 1, 2025 (final value approximately $14.2B). Mr. Cooper now operates as a Rocket Companies subsidiary; the corporate site mrcoopergroup.com redirects to rocketcompanies.com and the COOP ticker has been delisted. The consumer brand Mr. Cooper continues at mrcooper.com as one of seven Rocket Companies operating businesses (Rocket Mortgage, Redfin, Mr. Cooper, Rocket Homes, Rocket Close, Rocket Money, Rocket Loans). Mr. Cooper does not publish a public developer API or developer portal.'
 created: '2026-05-23'
 modified: '2026-05-23'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis: []
 common:
   - type: DomainSecurity
