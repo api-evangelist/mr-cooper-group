@@ -1,4 +1,4 @@
-# mr-cooper-group
+# Mr. Cooper Group
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,29 +64,80 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Profile for Mr. Cooper Group in the API Evangelist network.
+Mr. Cooper Group (formerly Nationstar Mortgage, NASDAQ: COOP) was a Coppell, Texas-based mortgage servicer with roughly $1.5T in unpaid principal balance under servicing and more than 4 million customers. It was acquired by Rocket Companies (NYSE: RKT) in an all-stock transaction announced March 31, 2025 (initial value $9.4B) and closed October 1, 2025 (final value approximately $14.2B). Mr. Cooper now operates as a Rocket Companies subsidiary; the corporate site mrcoopergroup.com redirects to rocketcompanies.com and the COOP ticker has been delisted. The consumer brand Mr. Cooper continues at mrcooper.com as one of seven Rocket Companies operating businesses (Rocket Mortgage, Redfin, Mr. Cooper, Rocket Homes, Rocket Close, Rocket Money, Rocket Loans). Mr. Cooper does not publish a public developer API or developer portal.
 
-Mr. Cooper Group (formerly Nationstar Mortgage; NASDAQ: COOP, delisted) was one of the largest U.S. residential mortgage servicers, headquartered in Coppell, Texas, with roughly $1.5T in unpaid principal balance under servicing and more than 4 million customers. Fortune F1000 (rank 996).
+**Areas:** Mortgage · Mortgage Servicing · Financial Services · Real Estate · Consumer Finance · Acquired · Rocket Companies
 
-## Acquisition by Rocket Companies
+## Mr. Cooper Group on APIs.io
 
-- **Announced:** March 31, 2025 — all-stock transaction valued at approximately **$9.4 billion**, fixed exchange ratio of 11.0 Rocket Class A shares per Mr. Cooper share.
-- **Closed:** October 1, 2025 — final value approximately **$14.2 billion** driven by RKT share-price appreciation between sign and close.
-- **Status:** Mr. Cooper is now a wholly-owned subsidiary of **Rocket Companies (NYSE: RKT)** alongside Rocket Mortgage, Redfin, Rocket Homes, Rocket Close, Rocket Money, and Rocket Loans. The mrcoopergroup.com corporate domain redirects to rocketcompanies.com; COOP common stock has ceased trading on Nasdaq.
+Everything profiled for Mr. Cooper Group is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mr-cooper-group/](https://apis.io/providers/mr-cooper-group/)** — or go straight to one of the APIs or properties below.
 
-The Mr. Cooper consumer brand continues at **mrcooper.com**, with originations now "Powered by Rocket Mortgage."
+### Published properties
 
-## API Surface
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Mr. Cooper publishes **no public developer API**, OpenAPI specification, SDK, or developer portal. Consumer mobile and web experiences are powered by private internal APIs not exposed to third parties. This repo is an index entry only — no `openapi/`, `capabilities/`, `rules/`, or other generated artifacts are produced.
+#### Security (1)
 
-## Artifacts
+Authentication, trust centre, and vulnerability disclosure.
 
-- [`apis.yml`](./apis.yml) — APIs.yml profile with company description, features, use cases, compliance, acquisition details, subsidiaries (Nationstar Mortgage LLC, Xome, Rushmore Servicing), integrations, and history.
+- [Mr Cooper Group Domain Security](https://apis.io/security/mr-cooper-group/mr-cooper-group-domain-security/)
 
-## Links
+## Where to find this API
 
-- Consumer site: https://www.mrcooper.com/
-- Parent company: https://www.rocketcompanies.com/
-- Investor relations (consolidated under parent): https://ir.rocketcompanies.com/home/default.aspx
-- LinkedIn: https://www.linkedin.com/company/mrcooper/
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.mrcooper.com/)
+- [Blog](https://www.mrcooper.com/blog/feed/)
+
+## API Evangelist rating
+
+**Kin Score 10.8** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 14.5 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mr-cooper-group/](https://apis.io/providers/mr-cooper-group/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Mr. Cooper Group: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mr-cooper-group/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
